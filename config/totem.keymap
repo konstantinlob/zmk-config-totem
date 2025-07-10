@@ -76,7 +76,7 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp COMMA      &kp PERIOD  &kp P        &kp Y        &kp F            &kp G          &kp C        &kp R        &kp Y       &kp LS(SINGLE_QUOTE)
+        &kp COMMA      &kp PERIOD  &kp P        &kp Y        &kp F            &kp G          &kp C        &kp R        &kp L       &kp LS(SINGLE_QUOTE)
         &mt LGUI A     &mt LALT O  &mt LCTRL E  &mt LSHFT U  &kp I            &kp D          &mt RSHFT H  &mt RCTRL T  &mt RALT N  &mt RGUI S
 &trans  &kp SEMICOLON  &kp Q       &kp J        &kp K        &kp X            &kp B          &kp M        &kp W        &kp V       &kp Z                 &mt BACKSLASH SLASH
                                    &trans       &kp SPACE    &kp BACKSPACE    &kp BACKSPACE  &kp SPACE    &to 1
