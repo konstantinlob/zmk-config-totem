@@ -10,10 +10,10 @@
 //
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
+#include "keys_de.h"
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include "keys_de.h"
 
 #define BASE 0
 #define NAV  1
@@ -53,6 +53,26 @@
             bindings = <&to 0>;
             key-positions = <37 32>;
         };
+
+        Eszett {
+            bindings = <&kp DE_SZ>;
+            key-positions = <30 19>;
+        };
+
+        ae {
+            bindings = <&kp DE_A_UMLAUT>;
+            key-positions = <10 12>;
+        };
+
+        oe {
+            bindings = <&kp DE_O_UMLAUT>;
+            key-positions = <11 12>;
+        };
+
+        ue {
+            bindings = <&kp DE_U_UMLAUT>;
+            key-positions = <12 13>;
+        };
     };
 
     keymap {
@@ -77,10 +97,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp COMMA      &kp PERIOD  &kp P            &kp Y        &kp F            &kp G          &kp C        &kp R        &kp L       &kp LS(SINGLE_QUOTE)
-        &mt LGUI A     &mt LALT O  &mt LCTRL E      &mt LSHFT U  &kp I            &kp D          &mt RSHFT H  &mt RCTRL T  &mt RALT N  &mt RGUI S
-&trans  &kp SEMICOLON  &kp Q       &kp J            &kp K        &kp X            &kp B          &kp M        &kp W        &kp V       &kp Z                 &mt BACKSLASH SLASH
-                                   &trans           &kp SPACE    &kp BACKSPACE    &kp BACKSPACE  &kp SPACE    &to 1
+        &kp DE_COMMA      &kp DE_PERIOD  &kp DE_P        &kp DE_Y        &kp DE_F         &kp DE_G       &kp DE_C     &kp DE_R        &kp DE_L       &kp LS(SINGLE_QUOTE)
+        &mt LGUI DE_A     &mt LALT DE_O  &mt LCTRL DE_E  &mt LSHFT DE_U  &kp DE_I         &kp DE_D       &mt RSHFT H  &mt RCTRL DE_T  &mt RALT DE_N  &mt RGUI DE_S
+&trans  &kp DE_SEMICOLON  &kp DE_Q       &kp DE_J        &kp DE_K        &kp DE_X         &kp DE_B       &kp DE_M     &kp DE_W        &kp DE_V       &kp DE_Z              &mt BACKSLASH SLASH
+                                         &trans          &kp SPACE       &kp BACKSPACE    &kp BACKSPACE  &kp SPACE    &to 1
             >;
         };
 
