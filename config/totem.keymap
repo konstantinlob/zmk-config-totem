@@ -97,10 +97,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp DE_COMMA   &kp DE_PERIOD  &kp DE_P        &kp DE_Y        &kp DE_F     &kp DE_G   &kp DE_C       &kp DE_R        &kp DE_L       &kp DE_SINGLE_QUOTE
-         &mt LGUI DE_A  &mt LALT DE_O  &mt LCTRL DE_E  &mt LSHFT DE_U  &kp DE_I     &kp DE_D   &mt RSHFT H    &mt RCTRL DE_T  &mt RALT DE_N  &mt RGUI DE_S
-&kp TAB  &trans         &kp DE_Q       &kp DE_J        &kp DE_K        &kp DE_X     &kp DE_B   &kp DE_M       &kp DE_W        &kp DE_V       &kp DE_Z             &mt BACKSLASH SLASH
-                                       &trans          &kp BACKSPACE   &kp SPACE    &kp SPACE  &kp BACKSPACE  &to 1
+         &kp DE_COMMA   &kp DE_PERIOD  &kp DE_P        &kp DE_Y        &kp DE_F     &kp DE_G   &kp DE_C        &kp DE_R        &kp DE_L       &kp DE_SINGLE_QUOTE
+         &mt LGUI DE_A  &mt LALT DE_O  &mt LCTRL DE_E  &mt LSHFT DE_U  &kp DE_I     &kp DE_D   &mt RSHFT DE_H  &mt RCTRL DE_T  &mt RALT DE_N  &mt RGUI DE_S
+&kp TAB  &trans         &kp DE_Q       &kp DE_J        &kp DE_K        &kp DE_X     &kp DE_B   &kp DE_M        &kp DE_W        &kp DE_V       &kp DE_Z             &mt DE_BACKSLASH DE_SLASH
+                                       &trans          &kp BACKSPACE   &kp SPACE    &kp SPACE  &kp BACKSPACE   &to 1
             >;
         };
 
@@ -123,10 +123,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &trans   &bt BT_CLR  &kp UP    &kp EQUAL  &kp LBRC    &kp RBRC  &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
-                &trans   &kp LEFT    &kp DOWN  &kp RIGHT  &kp LBKT    &kp RBKT  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
-&kp LEFT_SHIFT  &kp DEL  &kp PG_UP   &kp CAPS  &kp PG_DN  &kp LPAR    &kp RPAR  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &trans
-                                     &to 0     &trans     &trans      &trans    &kp KP_N0  &to 2
+                &trans   &trans     &kp UP    &trans     &kp LEFT_BRACE             &kp DE_RIGHT_BRACE        &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_PLUS
+                &trans   &kp LEFT   &kp DOWN  &kp RIGHT  &kp DE_LEFT_BRACKET        &kp DE_RIGHT_BRACKET      &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_MINUS
+&kp LEFT_SHIFT  &kp DEL  &kp PG_UP  &kp CAPS  &kp PG_DN  &kp DE_LEFT_PARENTHESIS    &kp DE_RIGHT_PARENTHESIS  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_MULTIPLY  &kp DE_EQUAL
+                                    &to 0     &trans     &trans                     &trans                    &kp KP_N0  &to 2
             >;
         };
 
