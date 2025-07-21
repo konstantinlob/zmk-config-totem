@@ -97,10 +97,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp DE_COMMA               &kp DE_PERIOD  &kp DE_P        &kp DE_Y        &kp DE_F     &kp DE_G   &kp DE_C        &kp DE_R        &kp DE_L       &kp DE_SINGLE_QUOTE
-         &mt LGUI DE_A              &mt LALT DE_O  &mt LCTRL DE_E  &mt LSHFT DE_U  &kp DE_I     &kp DE_D   &mt RSHFT DE_H  &mt RCTRL DE_T  &mt RALT DE_N  &mt RGUI DE_S
-&kp TAB  &mt DE_SLASH DE_BACKSLASH  &kp DE_Q       &kp DE_J        &kp DE_K        &kp DE_X     &kp DE_B   &kp DE_M        &kp DE_W        &kp DE_V       &kp DE_Z             &mt DE_EXCL DE_QUESTION
-                                                   &trans          &kp BACKSPACE   &kp SPACE    &kp SPACE  &kp BACKSPACE   &to 1
+         &kp DE_COMMA               &kp DE_PERIOD  &kp DE_P        &kp DE_Y           &kp DE_F     &kp DE_G   &kp DE_C        &kp DE_R        &kp DE_L       &mt DE_SINGLE_QUOTE DE_DOUBLE_QUOTES
+         &mt LGUI DE_A              &mt LALT DE_O  &mt LCTRL DE_E  &mt LSHFT DE_U     &kp DE_I     &kp DE_D   &mt RSHFT DE_H  &mt RCTRL DE_T  &mt RALT DE_N  &mt RGUI DE_S
+&kp TAB  &mt DE_SLASH DE_BACKSLASH  &kp DE_Q       &mt LG(DE_C) J  &mt LG(DE_V) DE_K  &kp DE_X     &kp DE_B   &kp DE_M        &kp DE_W        &kp DE_V       &kp DE_Z                              &mt DE_EXCL DE_QUESTION
+                                                   &trans          &kp BACKSPACE      &kp SPACE    &kp SPACE  &kp BACKSPACE   &to 1
             >;
         };
 
@@ -206,6 +206,15 @@
         &trans       &kp LS(LEFT)  &kp LC(F17)   &kp LS(RIGHT)  &kp RET        &trans  &kp F4  &kp F5  &kp F6  &kp F11
 &trans  &trans       &kp LS(C)     &kp LC(F16)   &kp LS(V)      &kp LC(F15)    &trans  &kp F1  &kp F2  &kp F3  &kp F10  &trans
                                    &trans        &kp LC(F12)    &kp LC(F11)    &trans  &trans  &trans
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
