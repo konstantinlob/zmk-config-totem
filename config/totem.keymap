@@ -113,7 +113,7 @@
          &kp DE_COMMA               &kp DE_PERIOD  &kp DE_P        &kp DE_Y             &kp DE_F         &kp DE_G   &kp DE_C        &kp DE_R        &kp DE_L       &mt DE_SINGLE_QUOTE DE_DOUBLE_QUOTES
          &mt LGUI DE_A              &mt LALT DE_O  &mt LCTRL DE_E  &mt LSHFT DE_U       &kp DE_I         &kp DE_D   &mt RSHFT DE_H  &mt RCTRL DE_T  &mt RALT DE_N  &mt RGUI DE_S
 &kp TAB  &mt DE_SLASH DE_BACKSLASH  &kp DE_Q       &mt LG(DE_C) J  &mt LG(DE_V) DE_K    &kp DE_X         &kp DE_B   &kp DE_M        &kp DE_W        &kp DE_V       &kp DE_Z                              &mt DE_EXCL DE_QUESTION
-                                                   &trans          &layermomenttap 1 1  &kp BACKSPACE    &kp SPACE  &trans          &trans
+                                                   &trans          &layermomenttap 1 1  &kp BACKSPACE    &kp SPACE  &trans          &kp DE_D
             >;
         };
 
